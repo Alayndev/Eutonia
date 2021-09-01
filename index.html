@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eutonía</title>
+    <link rel="shortcut icon" href="https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="grid-system.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light color">
+        <a class="navbar-brand" href="#">Eutonía</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Cursos:
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Curso de Columna</a>
+                <a class="dropdown-item" href="#">Curso de Posicionamiento</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Promociones</a>
+              </div>
+            </li>
+          
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar curso" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+  
+
+
+
+    
+      <div class="jumbotron container">
+        <h1 class="display-4"> Eutonía </h1>
+        <p class="lead">La Eutonía (del griego «eu»: buen, justo, armonioso, óptimo; y «tonus»: tono, tensión) es una disciplina corporal transdisciplinar de autodesarrollo creada por Gerda Alexander en 1959 con fines terapéuticos y educativos, y que considera el cuerpo como la base fundamental del ser y como el centro de la experiencia. La eutonía se centra en lograr el equilibrio armonioso de la tonicidad en constante adaptación a la actividad y las acciones de la persona en cada momento de su vida.</p>
+        <hr class="my-4">
+        <p>En caso de que quiera saber más</p>
+        <a class="btn btn-primary btn-lg" href="https://es.wikipedia.org/wiki/Euton%C3%ADa" role="button" target="_blank">Leer más</a>
+      </div>
+    
+
+
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6"> <form>
+                <p class="lead"> Ingresar al campus:</p>
+                <div class="form-group">
+                  <label for="usuario">Nombre de Usuario</label>
+                  <input type="text" name="nombre_de_usuario" class="form-control" id="usuario" placeholder="Nombre de Usuario">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Acepto las bases y condiciones</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+              </form></div>
+              <div class="col-lg-6"> <!-- CARRUSEL --> <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://images.pexels.com/photos/3756520/pexels-photo-3756520.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://images.pexels.com/photos/7500321/pexels-photo-7500321.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div></div>
+          </div>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+</body>
+</html>

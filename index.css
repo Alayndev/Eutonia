@@ -1,0 +1,20 @@
+body {
+    background-color: #BCE7FD;
+}
+
+.jumbotron {
+    background-color: #E2CAD9;
+}
+
+.color {
+    color: #e71111;
+}
+
+#imagen {
+    width: 556px;
+    height: 376px;
+}
+
+.active {
+    border: 2px solid #E2CAD9;
+}
